@@ -29,9 +29,11 @@ func main() {
 	var coisa imprimivel = pessoa{"Roberto", "Silva"}
 	fmt.Println(coisa.toString())
 	imprimir(coisa)
+
 	coisa = produto{"Calça Jeans", 79.90}
 	fmt.Println(coisa.toString())
 	imprimir(coisa)
+
 	p2 := produto{"Calça Jeans", 179.90}
 	imprimir(p2)
 }
